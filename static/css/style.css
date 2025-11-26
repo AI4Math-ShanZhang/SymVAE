@@ -497,7 +497,7 @@ embed[type="application/pdf"] {
 .carousel-container {
   position: relative;
   margin: 30px auto;
-  padding: 20px 60px;
+  padding: 10px 60px;
 }
 
 .carousel-xsmall {
@@ -505,11 +505,11 @@ embed[type="application/pdf"] {
 }
 
 .carousel-small {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .carousel-large {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .carousel {
@@ -605,14 +605,14 @@ embed[type="application/pdf"] {
 }
 
 .carousel-slide .img-responsive {
-  max-width: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-height: 800px;
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   display: block;
   margin: 0 auto;
+  object-fit: contain;
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
