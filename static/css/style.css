@@ -505,11 +505,11 @@ embed[type="application/pdf"] {
 }
 
 .carousel-small {
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .carousel-large {
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 .carousel {
@@ -605,11 +605,14 @@ embed[type="application/pdf"] {
 }
 
 .carousel-slide .img-responsive {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
+  max-height: 800px;
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   display: block;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
